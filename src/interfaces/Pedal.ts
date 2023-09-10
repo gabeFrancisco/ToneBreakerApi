@@ -8,7 +8,7 @@ export interface Pedal extends BaseEntity {
   type: string;
   model: string;
   year: string;
-  category: Array<Categories>;
+  categories: Array<Categories>;
   tones: Array<Tones>;
   description: string;
   imageUrl: string;
