@@ -12,5 +12,6 @@ export interface Pedal extends BaseEntity {
   tones: Array<Tones>;
   description: string;
   imageUrl: string;
-  controllers: Control
+  controllers: Array<Control>
+  size: string
 }
