@@ -1,4 +1,4 @@
-import { Control } from "../types/Control";
+import { Control } from "./Control";
 import { Categories } from "../enums/Categories";
 import { Tones } from "../enums/Tones";
 import { BaseEntity } from "./BaseEntity";
