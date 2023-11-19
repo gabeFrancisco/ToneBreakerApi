@@ -5,13 +5,12 @@ import { BaseEntity } from "./BaseEntity";
 
 export interface Pedal extends BaseEntity {
   manufactor: string;
-  type: string;
   model: string;
   year: string;
   categories: Array<Categories>;
   tones: Array<Tones>;
   description: string;
   imageUrl: string;
-  controllers: Array<Control>
+  controls: Array<Control>
   size: string
 }

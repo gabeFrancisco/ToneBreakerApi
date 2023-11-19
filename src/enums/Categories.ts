@@ -1,4 +1,6 @@
-export enum Categories{
+import { CategoryDTO } from "../dtos/CategoryDTO";
+
+export enum Categories {
   "Compressor",
   "Overdrive",
   "Distortion",
@@ -24,5 +26,18 @@ export enum Categories{
   "Expression",
   "Volume",
   "Multi-effects",
-  "Rack Unit"
+  "Rack Unit",
 }
+
+export const CategoriesList: Array<CategoryDTO> = [
+  {
+    name: Categories.Compressor,
+    description:
+      "The compressor limits the high signal of the guitar and raise the lower ones, sometimes losing dynamics and raising volume.",
+  },
+  {
+    name: Categories.Overdrive,
+    description:
+      "A pedal that clips the guitar signal and saturates, emulating tube amps",
+  },
+];
